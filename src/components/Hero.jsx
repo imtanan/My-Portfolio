@@ -19,7 +19,7 @@ function Hero() {
     <div className="flex items-start px-10 pt-28 w-full gap-16">
       {/* LEFT SIDE */}
       <div className="flex-1 min-w-[680px] text-left">
-        <AnimatedDiv animation="fade" delay={0.4} once={true}>
+        <AnimatedDiv animation="fade" delay={0.5} once={true}>
           <div className="mb-5 mt-5">
             <p className="flex items-center text-[#9b7bfc]">
               <span className="w-5 h-px bg-[#9b7bfc] mr-2"></span>
@@ -28,14 +28,14 @@ function Hero() {
           </div>
         </AnimatedDiv>
 
-        <AnimatedDiv animation="fade" delay={0.4} once={true}>
+        <AnimatedDiv animation="fade" delay={0.5} once={true}>
           <h1 className="text-7xl text-gray-200 font-bold leading-[0.9] m-0">
             Imtanan's <br />
             <span className="text-6xl">Portfolio</span>
           </h1>
         </AnimatedDiv>
 
-        <AnimatedDiv animation="fade" delay={0.4} once={true}>
+        <AnimatedDiv animation="fade" delay={0.5} once={true}>
           <div className="text-gray-400 text-lg mt-6">
             <p>
               <span className="text-[#9b7bfc]">
