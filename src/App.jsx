@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import Hero from './components/Hero'
+import Nav from './components/Nav'
+
 import './App.css'
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
 
   return (
    <>
+   <Nav />
   <Hero />
 </>
   )
