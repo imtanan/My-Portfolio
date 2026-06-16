@@ -3,6 +3,8 @@ import { motion } from 'framer-motion'
 import Hero from './components/Hero'
 import Nav from './components/Nav'
 import Projects from './components/Projects'
+import Contacts from './components/Contacts'
+import  TStack  from './components/TStack'
 
 import './App.css'
 
@@ -14,6 +16,8 @@ function App() {
    <Nav />
   <Hero />
   <Projects />
+  <TStack />
+  <Contacts />
 </>
   )
 }

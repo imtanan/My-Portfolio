@@ -20,7 +20,7 @@ function Hero() {
       {/* LEFT SIDE */}
       <div className="flex-1 min-w-[680px] text-left">
         <AnimatedDiv animation="fade" delay={0.5} once={true}>
-          <div className="mb-5 mt-5">
+          <div className="mb-5  mt-5">
             <p className="flex items-center text-[#9b7bfc]">
               <span className="w-5 h-px bg-[#9b7bfc] mr-2"></span>
               Backend-Focused Developer
