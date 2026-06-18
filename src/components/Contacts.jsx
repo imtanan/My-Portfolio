@@ -5,7 +5,7 @@ import { BsEnvelopeAtFill } from "react-icons/bs";
 function Contacts() {
   return (
     <>
-      <div className="flex items-center justify-center gap-3 mt-20">
+      <div id="contact" className="flex items-center justify-center gap-3 mt-20">
         <div className="w-10 h-[2px] bg-[#9b7bfc]" />
         <p className="text-xs uppercase tracking-[0.3em] text-[#9b7bfc] opacity-80">
           OPEN TO OPPORTUNITIES
@@ -45,7 +45,7 @@ function Contacts() {
             
             {/* Email */}
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=imtananrao1@gmail.com"
+              href="mailto:imtananrao1@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-[#9b7bfc] px-5 py-3 rounded-full text-black font-medium text-sm shadow-lg shadow-black/40 transition-all duration-200 hover:translate-y-0.5 hover:shadow-none"

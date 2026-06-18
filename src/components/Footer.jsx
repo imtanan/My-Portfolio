@@ -6,9 +6,9 @@ function Footer() {
   <p>© 2026 Imtanan Ahnaf. All rights reserved.</p>
 
   <div className="flex justify-center gap-6 mt-3">
-    <a href="https://github.com/yourgithub">GitHub</a>
-    <a href="https://linkedin.com/in/yourlinkedin">LinkedIn</a>
-    <a href="mailto:yourmail@gmail.com">Email</a>
+    <a href="https://github.com/imtanan">GitHub</a>
+    <a href="https://www.linkedin.com/in/imtanan-ahnaf-006a53402/">LinkedIn</a>
+    <a href="mailto:imtananrao1@gmail.com">Email</a>
   </div>
 </footer>
   )

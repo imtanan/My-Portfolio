@@ -2,8 +2,9 @@ import React from 'react'
 
 function Projects() {
   return (
-    <>
-    <div>Projects</div>
+    
+    <div id="projects">Projects
+
     <div>Projects</div>
     <div>Projects</div>
     <div>Projects</div>
@@ -26,7 +27,8 @@ function Projects() {
     <div>Projects</div>
     <div>Projects</div>
     <div>Projects</div>
-    </>
+    </div>
+    
   )
 }
 

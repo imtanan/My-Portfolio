@@ -7,3 +7,6 @@ body {
   color: white;
  font-family: "Host Grotesk", sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}

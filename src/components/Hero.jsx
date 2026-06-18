@@ -16,7 +16,7 @@ const LineNo = ({ number }) => (
 
 function Hero() {
   return (
-    <div className="flex items-start px-10 pt-28 w-full gap-16">
+    <div id="home" className="flex items-start px-10 pt-28 w-full gap-16">
       {/* LEFT SIDE */}
       <div className="flex-1 min-w-[680px] text-left">
         <AnimatedDiv animation="fade" delay={0.5} once={true}>

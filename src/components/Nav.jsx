@@ -36,7 +36,7 @@ function Nav() {
       >
 
         {/* LOGO */}
-        <a href="#" className="flex items-center gap-2 text-white font-semibold shrink-0">
+        <a href="#home" className="flex items-center gap-2 text-white font-semibold shrink-0">
           <img src="logo.png" alt="logo" className="w-6 h-6 object-contain" />
           Imtanan
         </a>
@@ -49,15 +49,15 @@ function Nav() {
             className={`absolute inset-0 flex items-center gap-6 text-gray-300 transition-all duration-500 ease-in-out
             ${navColapse ? "-translate-x-6 opacity-0 pointer-events-none" : "translate-x-0 opacity-100"}`}
           >
-            <a className="px-2 py-1 rounded-full hover:bg-gray-500 transition cursor-pointer">
+            <a href="#projects" className="px-2 py-1 rounded-full hover:bg-gray-500 transition cursor-pointer">
               Projects
             </a>
 
-            <a className="px-2 py-1 rounded-full hover:bg-gray-500 transition cursor-pointer">
+            <a href='#tstack' className="px-2 py-1 rounded-full hover:bg-gray-500 transition cursor-pointer">
               TechStack
             </a>
 
-            <a className="px-2 py-1 rounded-full hover:bg-gray-500 transition cursor-pointer">
+            <a href="#contact" className="px-2 py-1 rounded-full hover:bg-gray-500 transition cursor-pointer">
               Contact
             </a>
           </div>
