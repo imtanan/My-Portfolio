@@ -5,7 +5,7 @@ import Nav from './components/Nav'
 import Projects from './components/Projects'
 import Contacts from './components/Contacts'
 import  TStack  from './components/TStack'
-
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
   <Projects />
   <TStack />
   <Contacts />
+  <Footer />
 </>
   )
 }
