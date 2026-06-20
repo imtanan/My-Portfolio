@@ -16,9 +16,9 @@ const LineNo = ({ number }) => (
 
 function Hero() {
   return (
-    <div id="home" className="flex items-start px-10 pt-28 w-full gap-16">
+    <div id="home" className="flex items-start px-10 pt-28 w-full lg:gap-16 sm:gap-1 grid grid-cols-1 lg:grid-cols-12">
       {/* LEFT SIDE */}
-      <div className="flex-1 min-w-[680px] text-left">
+      <div className="flex-1 w-full min-w-[680px] text-left lg:col-span-7 ">
         <AnimatedDiv animation="fade" delay={0.5} once={true}>
           <div className="mb-5  mt-5">
             <p className="flex items-center text-[#9b7bfc]">
@@ -117,10 +117,10 @@ function Hero() {
       </div>
 
       {/* RIGHT SIDE - CODE WINDOW */}
-      <div className="ml-3 mt-20">
+      <div className="lg:col-span-5  ml-3 mt-20">
 
         <AnimatedDiv animation="right" delay={0.2} once={true}>
-        <div className="w-[450px] rounded-xl overflow-hidden bg-[#121111] border border-[#332e69f2] shadow-[0_0_40px_#251f39]">
+        <div className="w-full w-[450px] rounded-xl overflow-hidden bg-[#121111] border border-[#332e69f2] shadow-[0_0_40px_#251f39]">
           {/* TOP BAR */}
           <div className="flex items-center gap-2 p-3 border-b border-[#332e69f2] bg-[#121111]">
             <svg
