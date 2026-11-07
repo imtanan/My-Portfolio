@@ -40,7 +40,7 @@ function Projects() {
             <span className="w-3 h-3 rounded-full bg-green-500" />
             <span className="ml-4 text-sm text-white/60 font-mono">pulse-chat-app</span>
           </div>
-          <img src="../public/pulse.png" alt="Pulse chat app"  className="w-full h-full object-contain" />
+          <img src="/pulse.png" alt="Pulse chat app"  className="w-full h-full object-contain" />
         </a>
 
         <div className="space-y-5">
