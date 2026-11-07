@@ -48,9 +48,7 @@ function Contacts() {
             
             {/* Email */}
             <a
-              href="mailto:imtananrao1@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:imtananrao1@gmail.com?subject=Hello%20Imtanan"
               className="flex items-center gap-2 bg-[#9b7bfc] px-5 py-3 rounded-full text-black font-medium text-sm shadow-lg shadow-black/40 transition-all duration-200 hover:translate-y-0.5 hover:shadow-none"
             >
               <BsEnvelopeAtFill className="text-black text-[18px]" />
